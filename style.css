@@ -35,5 +35,16 @@ body ,html{
 }
 
 .container{
+    justify-content: center;
     display: flex ;
+    flex-wrap: wrap; 
+    width: 100%;
+    
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
 }
