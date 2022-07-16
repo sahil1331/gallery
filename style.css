@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -25,14 +25,38 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 20px;
+    opacity: 0.90;
     text-align: center;
 }
 
-#showcase h1 {
-    font-size: 6em;
-    padding-top: 20%;
+#showcase .prmtitle {
+    font-size: 4em;
+    padding-top:30%;
     text-transform: uppercase;
+    line-height: 1;
+}
+
+#showcase .subtitle{
+    font-size: 1.124em;
+    padding : 10px 0;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #111;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.525rem;
+    margin-top: 0.54em;
+    padding: .7em 1.125em;
+    border-radius: 0.25em;
+    transition: transform 250ms ease-in-out;
+}
+
+.btn:hover,.btn:focus{
+    transform: scale(1.1);
 }
 
 .container {
@@ -110,4 +134,13 @@ html {
 .gallery-item:hover .text{
     opacity: 1;
 }
+
+footer{
+    text-align: center;
+    background-color: #f4f4f4;
+    font-size: 0.8em;
+    margin-top: 2em;
+    padding: 1em;
+}
+
 
