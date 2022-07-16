@@ -37,8 +37,8 @@ html {
 }
 
 #showcase .subtitle{
-    font-size: 1.124em;
-    padding : 10px 0;
+    font-size: 1.424em;
+    padding : 20px 0;
 }
 
 .btn{
@@ -49,7 +49,7 @@ html {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1.525rem;
-    margin-top: 0.54em;
+    margin-top: 1em;
     padding: .7em 1.125em;
     border-radius: 0.25em;
     transition: transform 250ms ease-in-out;
@@ -144,3 +144,61 @@ footer{
 }
 
 
+@media screen and (min-width:648px){
+
+
+    #showcase .prmtitle {
+        font-size: 5em;
+        padding-top:15%;
+        text-transform: uppercase;
+        line-height: 1;
+    }
+    
+    #showcase .subtitle{
+        font-size: 1.524em;
+        padding : 13px 0;
+    }
+    
+    .btn{
+        
+        font-size: 1.825rem;
+        margin-top: 0.54em;
+
+    }
+    
+    .btn:hover,.btn:focus{
+        transform: scale(1.1);
+    }
+    
+
+}
+    
+
+@media screen and (min-width:1000px){
+
+
+    #showcase .prmtitle {
+        font-size: 6em;
+        padding-top:10%;
+        text-transform: uppercase;
+        line-height: 2;
+    }
+    
+    #showcase .subtitle{
+        font-size: 2.524em;
+        padding : 15px 0;
+    }
+    
+    .btn{
+        
+        font-size: 2.825rem;
+        margin-top: 1em;
+
+    }
+    
+    .btn:hover,.btn:focus{
+        transform: scale(1.3);
+    }
+    
+
+}
