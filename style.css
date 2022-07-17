@@ -30,8 +30,8 @@ html {
 }
 
 #showcase .prmtitle {
-    font-size: 4em;
-    padding-top:30%;
+    font-size: 6em;
+    padding-top:220px;
     text-transform: uppercase;
     line-height: 1;
 }
@@ -46,6 +46,7 @@ html {
     text-decoration: none;
     color: #fff;
     background-color: #111;
+    text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1.525rem;
@@ -57,15 +58,22 @@ html {
 
 .btn:hover,.btn:focus{
     transform: scale(1.1);
+    background-color: #fff;
+    color: #111;
+    text-decoration: none;
+}
+
+.btn::after{
+
 }
 
 .container {
-    margin-top: 10px;
+    margin-top: 5px;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    grid-gap: 10px;
+    grid-gap: 5px;
 
 }
 
@@ -144,19 +152,19 @@ footer{
 }
 
 
-@media screen and (min-width:648px){
+@media screen and (max-width:648px){
 
 
     #showcase .prmtitle {
-        font-size: 5em;
-        padding-top:15%;
+        font-size: 4em;
+        padding-top:200px;
         text-transform: uppercase;
         line-height: 1;
     }
     
     #showcase .subtitle{
         font-size: 1.524em;
-        padding : 13px 0;
+        padding : 10px 0;
     }
     
     .btn{
@@ -174,12 +182,12 @@ footer{
 }
     
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1400px){
 
 
     #showcase .prmtitle {
-        font-size: 6em;
-        padding-top:10%;
+        font-size: 9em;
+        padding-top:300px;
         text-transform: uppercase;
         line-height: 2;
     }
@@ -199,6 +207,6 @@ footer{
     .btn:hover,.btn:focus{
         transform: scale(1.3);
     }
-    
+
 
 }
