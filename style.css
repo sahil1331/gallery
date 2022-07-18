@@ -227,20 +227,9 @@ footer{
 
 }
 
-/* @media only screen and (min-width: 600px) {
-    html {
-      zoom: .8;
+@media (-webkit-device-pixel-ratio: 1.25) {
+    *{
+        zoom: 1;
+        -moz-transform: scale(1);
     }
   }
-
-  @media only screen and (min-width: 800px) {
-    html {
-      zoom: .9;        
-    }
-  }
-
-  @media only screen and (min-width: 1000px) {
-    html {
-      zoom: 1;
-    }
-  } */
