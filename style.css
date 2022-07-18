@@ -229,7 +229,17 @@ footer{
 
 @media (-webkit-device-pixel-ratio: 1.25) {
     *{
-        zoom: 1;
-        -moz-transform: scale(1);
+        zoom: 0.8;
+        
+    }
+
+    #showcase .prmtitle {
+        font-size: 5em;
+        padding-top:100px;
+
+    }
+    
+    #showcase {
+        height: 100vh;
     }
   }
